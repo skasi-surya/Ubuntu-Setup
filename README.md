@@ -10,6 +10,10 @@
 4. Copy output of `cat id_rsa.pub`
 5. Log into GitHub, navigate to your account settings, and find the link named **SSH and GPG keys**. Click on this link to create a new GitHub SSH key. Provide a unique name, and paste the value of the private GitHub SSH key you copied earlier.
 
+### Setup SSH Agent
+1. `eval "$(ssh-agent -s)"`
+2. `ssh-add ~/.ssh/id_rsa`
+
 ## Install Java
 
 [SDKMan](https://sdkman.io/) will be used to install Java.
