@@ -42,7 +42,7 @@ sudo apt install docker-ce -y
 
 ## Artifactory
 
-`artifactory.properties`
+Create a file named `artifactory.properties` in the project root-directory with the following content:
 ```
 username=<enter-your-username>
 password=<enter-your-password>
