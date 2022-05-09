@@ -1,5 +1,7 @@
 # Ubuntu-Setup
 
+## Short Link : t.ly/zT6w
+
 ## Git SSH Setup
 
 1. `mkdir ~/.ssh`
